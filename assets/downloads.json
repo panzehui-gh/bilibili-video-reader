@@ -1,0 +1,22 @@
+{
+  "ffmpeg": {
+    "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+    "sha256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba",
+    "version": "9.0.2-essentials_build",
+    "binaries": {
+      "ffmpeg.exe": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+      "ffprobe.exe": "f0d36ecbbdd3bcfac3efa078c96c7271c2e68b3810595552ac3b7f17e9a65c52"
+    }
+  },
+  "yamnet": {
+    "url": "https://huggingface.co/audiomagic/yamnet-onnx/resolve/main/yamnet.onnx",
+    "sha256": "d3835ffbbd4a1bb3e777f0ca217b5007907f5171dd5d17c4236b95b2af8f908e",
+    "labels_url": "https://huggingface.co/audiomagic/yamnet-onnx/resolve/main/yamnet_class_map.csv",
+    "labels_sha256": "cdf24d193e196d9e95912a2667051ae203e92a2ba09449218ccb40ef787c6df2"
+  },
+  "whisper": {
+    "repo_id": "Systran/faster-whisper-small",
+    "files": ["config.json", "model.bin", "tokenizer.json", "vocabulary.txt"],
+    "model_sha256": "3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671"
+  }
+}
